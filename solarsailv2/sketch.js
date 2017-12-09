@@ -51,10 +51,10 @@ function draw() {
     text("Time to the Moon: ", 100,height/3+160)
     tmoon = sqrt(3.8e8/a)/(60*60*24);
     text(tmoon.toFixed(2)+" days",100,height/3+185)
-    text("Time to Jupiter: ", 100,height/3+210)
+    text("Time to Jupiter (first gas giant): ", 100,height/3+210)
     tjupiter = sqrt(6.28e11/a)/(60*60*24);
     text(tjupiter.toFixed(2)+" days",100,height/3+235)
-    text("Time to Neptune: ",100, height/3 + 260)
+    text("Time to Neptune (last planet in the solar system): ",100, height/3 + 260)
     tneptune = sqrt(4.351e12/a)/(60*60*24);
     text(tneptune.toFixed(2) + " days",100, height/3 + 285)
     text("Time to the Edge of the Solar System: ",100, height/3 + 310)
