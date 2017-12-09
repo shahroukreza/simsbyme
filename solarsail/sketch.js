@@ -1,5 +1,4 @@
 var BSlider
-var SSlider
 var r
 function setup() {
   createCanvas(windowWidth, windowHeight);
